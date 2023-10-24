@@ -1,7 +1,6 @@
 .data
-str: .asciiz "Ansh"
+str: .asciiz "Ansh Choudhary"
 msg1: .asciiz "Reversed String : "
-new_line: .asciiz "\n"
 rev_str: .space 256			#allocating 256 character of memory for the string 
 
 .text
@@ -47,10 +46,6 @@ rev_loop_end:
 
     li $v0, 4
     la $a0, rev_str
-    syscall
-
-    li $v0, 4
-    la $a0, new_line
     syscall
 
     li $v0,10

@@ -1,0 +1,27 @@
+algorithm for reverse string:
+
+
+save the string in str
+
+load the address of string in t4
+
+start a loop to count the number of characters in the string
+store the count in t2
+and advance the string pointer
+
+another loop to get reverse string address
+
+reverse string loop: 
+    use the count from t2 to use as condition 
+
+
+t4 = ANSH
+t5 = HSNA
+
+iterations:
+t4= H 
+t5= H 
+
+t3=S 
+t5=HS
+
